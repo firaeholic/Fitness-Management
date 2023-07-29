@@ -1,3 +1,2 @@
 # Fitness-Management
-This is a project on GYM management.
-Feel free to use it.
+A console Gym Management System made using C++. Run Admin.cpp.
