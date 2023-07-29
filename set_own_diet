@@ -1,0 +1,120 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+#include<string.h>
+#include<Windows.h>
+#include<cstring>
+#include<conio.h>
+using namespace std;
+void get_diet()
+{
+      string mon_break , mon_lunch, mon_dinner,tue_break , tue_lunch, tue_dinner,wed_break , wed_lunch, wed_dinner, thurs_break , thurs_lunch, thurs_dinner,fri_break , fri_lunch, fri_dinner, satur_break , satur_lunch, satur_dinner,sun_break , sun_lunch, sun_dinner;
+
+    cout << "\n\n\n\n\t\t\t\tEnter Monday's Breakfast:     ";
+    cin >> mon_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Monday's Lunch:     ";
+    cin >> mon_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Monday's Dinner:     ";
+    cin >> mon_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Tuesday's Breakfast:     ";
+    cin >> tue_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Tuesday's Lunch:     ";
+    cin >> tue_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Tuesday's Dinner:     ";
+    cin >> tue_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Wednesday's Breakfast:     ";
+    cin >> wed_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Wednesday's Lunch:     ";
+    cin >> wed_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Wednesday's Dinner:     ";
+    cin >> wed_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Thursday's Breakfast:     ";
+    cin >> thurs_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Thursday's Lunch:     ";
+    cin >> thurs_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Thursday's Dinner:     ";
+    cin >> thurs_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Friday's Breakfast:     ";
+    cin >> fri_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Friday's Lunch:     ";
+    cin >> fri_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Friday's Dinner:     ";
+    cin >> fri_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Saturday's Breakfast:     ";
+    cin >> satur_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Saturday's Lunch:     ";
+    cin >> satur_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Saturday's Dinner:     ";
+    cin >> satur_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+
+     cout << "\n\n\n\n\t\t\t\tEnter Sunday's Breakfast:     ";
+    cin >> sun_break;
+    cout << endl << endl;
+
+    cout << "\t\t\t\tEnter Sunday's Lunch:     ";
+    cin >> sun_lunch;
+    cout << endl << endl;
+
+     cout << "\t\t\t\tEnter Sunday's Dinner:     ";
+    cin >> sun_dinner;
+    cout << endl << endl;
+
+    system("cls");
+
+
+}
